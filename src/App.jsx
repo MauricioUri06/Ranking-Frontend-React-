@@ -12,6 +12,8 @@ function App(){
       traerDatos();
     },[]);
 
+    const puntajesOrdenados = [...puntajes].sort((a, b) => b.puntaje - a.puntaje);
+
   return(
     <div>
       <h1>Ranking de Puntajes</h1>
