@@ -18,7 +18,7 @@ function App(){
     <div>
       <h1>Ranking de Puntajes</h1>
       <ol>
-        {puntajes.map((p) => (
+        {puntajesOrdenados.map((p) => (
           <li key ={p.id}>
             {p.jugador} - {p.puntaje}
           </li>
